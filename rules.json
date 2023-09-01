@@ -1,0 +1,68 @@
+[
+
+  {
+    "name": "NO_COLUMN",
+    "desc": "There is no %s column in %s table",
+    "sugg": "Remove %s from query"
+
+  },
+
+  {
+    "name": "NOT_FK",
+    "desc": "Chosen column %s is not a foreign key",
+    "sugg": "Choose a foreign key"
+
+  },
+  {
+    "name": "MISSING_PART",
+    "desc": "An important part of the query is missing",
+    "sugg": "Insert %s into query"
+
+  },
+
+   {
+    "name": "ORDER",
+    "desc": "Incorrect order in the query",
+    "sugg": "Fix order"
+
+  },
+
+   {
+    "name": "ALIAS",
+    "desc": "There are no quotes between a space separated alias %s",
+    "sugg": "Add quotes to the %s part of query"
+
+  },
+   {
+    "name": "GROUP_BY",
+    "desc": "%s is missing from GROUP BY",
+    "sugg": "Insert %s into GROUP BY"
+
+  },
+   {
+    "name": "WHERE",
+    "desc": "There is an aggregate function %s in WHERE",
+    "sugg": "Remove %s from WHERE statement"
+
+  },
+   {
+    "name": "INCORRECT_TYPE",
+    "desc": "Missmatching data types in the query",
+    "sugg": "Change type of %s to %s"
+
+  },
+   {
+    "name": "VARIABLES_USAGE",
+    "desc": "Variable %s not used in query",
+    "sugg": "Use %s in the query"
+
+  },
+   {
+    "name": "CSV_INCORRECT",
+    "desc": "Incorrect structure of csv file for %s table",
+    "sugg": "Choose another csv file or table"
+
+  }
+
+  
+]
